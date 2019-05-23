@@ -1,0 +1,19 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+// Variables
+@import 'variables';
+
+//Custom Scss
+@import "custom";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-image: url("bg.png");
+  background-repeat: repeat;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
